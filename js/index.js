@@ -15,14 +15,14 @@ function onLeaveHeadLine(hl){
 	hl.style.textShadow = "";
 }
 
-function sleep(numberMillis) { 
-	var now = new Date(); 
-	var exitTime = now.getTime() + numberMillis; 
-	while (true) { 
-		now = new Date(); 
-		if (now.getTime() > exitTime) 
-		return; 
-	} 
+function sleep(numberMillis) {
+	var now = new Date();
+	var exitTime = now.getTime() + numberMillis;
+	while (true) {
+		now = new Date();
+		if (now.getTime() > exitTime)
+		return;
+	}
 }
 
 function onTouchPicture(pic){
@@ -34,7 +34,7 @@ function onTouchPicture(pic){
 }
 
 function onLeavePicture(pic){
-	
+
 	console.log("abc");
 	pic.style.borderRadius = "50%";
 }
